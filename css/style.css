@@ -43,7 +43,7 @@ body {
     background-size: cover;
     background-repeat: no-repeat;
 
-    height: 80vh;
+    height: 60vh;
     border-radius: 50px;
     color: #fff;
     cursor: pointer;
@@ -72,11 +72,16 @@ body {
 }
 
 .paragraph {
-
-    padding: 20px;
+    display: inline-block;
+    /* padding: 20px;
     margin-left: 100px;
-    margin-right: 100px;
+    margin-right: 100px; */
 
+}
+
+.line {
+    display: flex;
+    justify-content: space-around;
 }
 
 @media (max-width: 480px) {
